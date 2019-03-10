@@ -1,0 +1,102 @@
+* {
+  font-family: century gothic; }
+
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/showcase.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  background-attachment: fixed; }
+
+.services:hover {
+  transition: 1s !important;
+  width: 300px; }
+
+.img {
+  width: 275px;
+  height: 200px;
+  cursor: pointer; }
+
+.services {
+  width: 275px;
+  transition: 1s;
+  cursor: pointer; }
+
+#showcase {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/showcase.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  background-attachment: fixed; }
+  #showcase nav {
+    position: fixed;
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999999; }
+    #showcase nav ul {
+      position: absolute;
+      margin-top: -60px;
+      padding-left: 400px;
+      display: flex; }
+      #showcase nav ul li {
+        list-style: none; }
+        #showcase nav ul li a {
+          font-size: 13x;
+          color: #f1f1f1;
+          padding: 0px 15px;
+          padding-top: 27px;
+          border-top: 5px solid transparent; }
+        #showcase nav ul li a:hover {
+          color: orange;
+          transition: 1s;
+          padding-top: 27px;
+          text-decoration: none;
+          border-top: 5px solid orange; }
+
+.active a {
+  color: orange !important;
+  border-top: 5px solid orange !important; }
+
+.about {
+  padding-top: 200px; }
+
+.app_footer {
+  margin-top: -100px;
+  color: white;
+  background: black;
+  padding: 25px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0; }
+
+.bottom {
+  background: url("../img/bottom.png");
+  width: 1250px;
+  height: 100vh;
+  background-repeat: no-repeat;
+  overflow: hidden !important;
+  margin-top: 100px;
+  margin-bottom: -1000000px; }
+
+.second_section {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 50px 50px;
+  line-height: 30px;
+  color: #f1f1f1;
+  overflow: hidden; }
+
+.third_section {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/showcase2.jpg");
+  background-size: cover !important;
+  /* <------ */
+  background-repeat: no-repeat; }
+  .third_section h1 {
+    padding-top: 120px; }
+
+.fourth_section {
+  padding-top: 100px; }
+
+/*# sourceMappingURL=styles.css.map */
